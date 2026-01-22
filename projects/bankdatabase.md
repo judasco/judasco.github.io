@@ -6,7 +6,7 @@ title: "Bank Record Management System"
 date: 2025-11-29
 published: true
 labels:
-  - Unix
+  - File I/O
   - C++
   - Data Structures
 summary: "Bank Record Management System is a C++ application that manages bank customer records using a linked list data structure with automatic data saving and retrieval."
