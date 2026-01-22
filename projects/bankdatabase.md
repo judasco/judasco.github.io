@@ -1,21 +1,22 @@
 ---
 layout: project
 type: project
-image: img/bank-database/database-icon.jpg
+image: img/bank-square.png
 title: "Bank Record Management System"
 date: 2025-11-29
 published: true
 labels:
-  - File I/O
   - C++
+  - Unix
+  - File I/O
   - Data Structures
 summary: "Bank Record Management System is a C++ application that manages bank customer records using a linked list data structure with automatic data saving and retrieval."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/bank-terminal.png" class="img-thumbnail" >
+  <img width="200px" src="../img/bank-database.png" class="img-thumbnail" >
+  <img width="200px" src="../img/bank-bank.png" class="img-thumbnail" >
 </div>
 
 The Bank Record Management System is a command-line application that allows users to efficiently manage customer account information. The system stores customer records containing account numbers, names, and addresses in a sorted linked list structure, maintaining data persistence through file storage between sessions.
