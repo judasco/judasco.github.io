@@ -13,7 +13,7 @@ summary: "Hotel Management System is a Java-based hotel booking system that mana
 ---
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/hotel-room.png" class="img-thumbnail" >
+  <img width="400px" src="../img/hotel-room.png" class="img-thumbnail" >
 </div>
 
 The Hotel Management System is a command-line application developed in Java that simulates a hotel booking system with 50 rooms across 5 floors. The system manages different room types including Single ($155), Double ($170), Triple ($200), Deluxe ($450), and Handicap-accessible ($220) rooms. Users can book and vacate rooms, view occupancy status, and maintain a complete transaction log that persists to a file.
