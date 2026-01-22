@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/booklist-square.png
 title: "Book List Manager"
-date: 2025-06-10
+date: 2025-07-10
 published: true
 labels:
   - Java
