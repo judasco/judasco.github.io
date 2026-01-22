@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/booklist-square.jpg
+image: img/booklist-square.png
 title: "Book List Manager"
 date: 2025-06-10
 published: true
