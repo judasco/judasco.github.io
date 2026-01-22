@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/hotel-square.png
 title: "Hotel Managemment System"
-date: 2025-07-20
+date: 2025-06-20
 published: true
 labels:
   - Java
