@@ -83,5 +83,3 @@ private String printMoreThanPriceHelper(double price, NodeBook node) {
 ```
 
 This project strengthened my understanding of linked list data structures, recursion, GUI event handling, and the importance of data validation in building robust applications. It also improved my ability to implement interfaces and design maintainable, object-oriented solutions.
-
-Source: <a href="https://github.com/judasco/book-list-manager">github.com/judasco/book-list-manager</a>
