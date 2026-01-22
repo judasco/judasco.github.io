@@ -14,7 +14,7 @@ summary: "Book List Manager is a Java application that manages a sorted linked l
 ---
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/booklist-GUI.png" class="img-thumbnail" >
+  <img width="650px" src="../img/booklist-GUI.png" class="img-thumbnail" >
   <img width="400px" src="../img/booklist-book.png" class="img-thumbnail" >
 </div>
 
