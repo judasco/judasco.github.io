@@ -50,4 +50,3 @@ private int[] getIndicesFromRoomNumber(int roomNumber) throws RoomException {
 
 This project enhanced my understanding of object-oriented design principles, exception handling, and data structure implementation in Java. It also improved my ability to translate real-world business requirements into clean, maintainable code.
 
-Source: <a href="https://github.com/judasco/hotel-management-system">github.com/judasco/hotel-management-system</a>
