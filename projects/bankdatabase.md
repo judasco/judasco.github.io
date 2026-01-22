@@ -14,7 +14,7 @@ summary: "Bank Record Management System is a C++ application that manages bank c
 ---
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/bank-terminal.png" class="img-thumbnail" >
+  <img width="400px" src="../img/bank-terminal.png" class="img-thumbnail" >
   <img width="300px" src="../img/bank-database.png" class="img-thumbnail" >
   <img width="400px" src="../img/bank-bank.png" class="img-thumbnail" >
 </div>
