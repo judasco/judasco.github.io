@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/hotel-square.jpg
+image: img/hotel-square.png
 title: "Hotel Managemment System"
 date: 2025-07-20
 published: true
