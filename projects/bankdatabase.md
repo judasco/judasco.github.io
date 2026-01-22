@@ -72,8 +72,6 @@ int llist::addRecord(int accno, char name[], char address[])
     return 0;
 }
 ```
-
-Source code: [GitHub Repository](https://github.com/judasco/bank-database)
 ---
 
 
