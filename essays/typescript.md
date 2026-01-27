@@ -11,6 +11,9 @@ labels:
   - Software Engineering
 ---
 
+<img width="300px" class="rounded float-start pe-4" src="../img/typescript-meme.png">
+
+
 ## Introduction
 
 Coming from Java, C, C++, and a bit of Python, I wasn't sure what to expect from TypeScript. Another language to learn? Great. But here's the thing: I actually really like it. TypeScript catches bugs before they become problems, and after dealing with runtime errors in other languages, that's a game-changer.
