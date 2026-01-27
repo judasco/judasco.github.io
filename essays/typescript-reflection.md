@@ -26,11 +26,11 @@ After this module, I get why TypeScript has become so popular. It takes what's g
 
 ### First Impression
 
-When I first looked at TypeScript code, it reminded me most of Python. The syntax is straightforward—no unnecessary brackets or verbose declarations like Java requires. You can write a function in a few clean lines and actually read it without squinting. But unlike Python, where you don't know if something's broken until you run it, TypeScript tells you immediately if you're doing something wrong.
+When I first looked at TypeScript code, it reminded me most of Python. The syntax is straightforward. No unnecessary brackets or verbose declarations like Java requires. You can write a function in a few clean lines and actually read it without squinting. But unlike Python, where you don't know if something's broken until you run it, TypeScript tells you immediately if you're doing something wrong.
 
 The type system felt familiar coming from Java and C++. I'm used to declaring types: int x = 5; in C, String name = "test"; in Java. TypeScript does the same thing: let x: number = 5; let name: string = "test"; But here's where it gets better... TypeScript has type inference. If you write let x = 5;, it knows x is a number. You don't have to spell everything out like you do in Java. It's smarter about it.
 
-The weirdest part? Understanding that TypeScript isn't really a standalone language. It compiles—or "transpiles"—to JavaScript. In C++, you compile to machine code. In Java, you compile to bytecode. TypeScript becomes plain JavaScript that runs in browsers. At first, that felt like an extra, unnecessary step. Why not just write JavaScript? But once I realized this lets you use modern features while keeping your code compatible with older systems, it clicked. From a software engineering perspective, that's actually clever.
+The weirdest part? Understanding that TypeScript isn't really a standalone language. It compiles or "transpiles" to JavaScript. In C++, you compile to machine code. In Java, you compile to bytecode. TypeScript becomes plain JavaScript that runs in browsers. At first, that felt like an extra, unnecessary step. Why not just write JavaScript? But once I realized this lets you use modern features while keeping your code compatible with older systems, it clicked. From a software engineering perspective, that's actually clever.
 
 One thing I appreciate: the tooling. My IDE autocompletes everything, catches errors as I type, and suggests fixes. Coming from C++ where a missing semicolon means hunting through compiler errors, having feedback is very helpful. It makes writing code faster and way less frustrating.
 
