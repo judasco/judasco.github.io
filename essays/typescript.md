@@ -22,6 +22,7 @@ What surprised me most was how natural it felt to write. The syntax is clean and
 
 After this module, I get why TypeScript has become so popular. It takes what's good about JavaScript and fixes what's frustrating about it. Let me break down why it works and what the learning experience was actually like.
 
+<br>
 
 ## First Impression
 
@@ -38,9 +39,7 @@ One thing I appreciate: the tooling. My IDE autocompletes everything, catches er
 
 From a software engineering perspective, TypeScript solves a real problem. JavaScript's flexibility means you can assign a string to a variable that's supposed to be a number, pass wrong arguments to a function, or misspell property names and nothing stops you until the code crashes. TypeScript catches these mistakes before you even run the code.
 
-The type checking is the biggest win. If I try to pass a string to a function expecting a number, TypeScript won't compile. Misspell a property? It tells me immediately. This prevents bugs from reaching production and makes code easier to understand. When someone reads my code, the types show exactly what each function expects and returns.
-
-I also learned modern JavaScript features through TypeScript. Arrow functions, destructuring, and template literals were new to me and make code cleaner and faster to write. Interfaces let you define object shapes without Java's class overhead, giving you structure without the verbosity.
+The type checking is the biggest win. If I try to pass a string to a function expecting a number, TypeScript won't compile. Misspell a property? It tells me immediately. This prevents bugs from reaching production and makes code easier to understand. When someone reads my code, the types show exactly what each function expects and returns. I also learned modern JavaScript features through TypeScript. Arrow functions, destructuring, and template literals were new to me and make code cleaner and faster to write. Interfaces let you define object shapes without Java's class overhead, giving you structure without the verbosity.
 
 Is TypeScript perfect? No. There's a learning curve with generics and knowing when to use strict typing. But compared to hunting runtime errors in JavaScript or dealing with Java's verbosity, TypeScript strikes a good balance. 
 
