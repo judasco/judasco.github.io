@@ -11,7 +11,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="../img/typescript-meme.png">
+<img width="450px" class="rounded float-start pe-4" src="../img/typescript-meme.png">
 
 
 ## Introduction
@@ -23,8 +23,6 @@ What surprised me most was how natural it felt to write. The syntax is clean and
 After this module, I get why TypeScript has become so popular. It takes what's good about JavaScript and fixes what's frustrating about it. Let me break down why it works and what the learning experience was actually like.
 
 
-
-
 ## First Impression
 
 When I first looked at TypeScript code, it reminded me most of Python. The syntax is straightforward—no unnecessary brackets or verbose declarations like Java requires. You can write a function in a few clean lines and actually read it without squinting. But unlike Python, where you don't know if something's broken until you run it, TypeScript tells you immediately if you're doing something wrong.
@@ -34,8 +32,7 @@ The type system felt familiar coming from Java and C++. I'm used to declaring ty
 The weirdest part? Understanding that TypeScript isn't really a standalone language. It compiles—or "transpiles"—to JavaScript. In C++, you compile to machine code. In Java, you compile to bytecode. TypeScript becomes plain JavaScript that runs in browsers. At first, that felt like an extra, unnecessary step. Why not just write JavaScript? But once I realized this lets you use modern features while keeping your code compatible with older systems, it clicked. From a software engineering perspective, that's actually clever.
 One thing I appreciate: the tooling. My IDE autocompletes everything, catches errors as I type, and suggests fixes. Coming from C++ where a missing semicolon means hunting through compiler errors, having real-time feedback is incredibly helpful. It makes writing code faster and way less frustrating.
 
-
-
+<br>
 
 ## The Good Stuff: What I Actually Like
 
@@ -47,8 +44,7 @@ I also learned modern JavaScript features through TypeScript. Arrow functions, d
 
 Is TypeScript perfect? No. There's a learning curve with generics and knowing when to use strict typing. But compared to hunting runtime errors in JavaScript or dealing with Java's verbosity, TypeScript strikes a good balance. 
 
-
-
+<br>
 
 ## Coding with a Time Bomb, but One Day I'll Reach a Flow State
 
@@ -58,11 +54,8 @@ Is it useful? Honestly, I think so, even if it's uncomfortable. The pressure for
 
 Do I enjoy it? Not exactly. But I can see how it's building skills that matter, like speed, accuracy, and the ability to think clearly under stress. In real development, there are deadlines, production bugs that need fixing now, and situations where you can't spend an hour debugging. WODs simulate that pressure in a controlled way. Will this style work for me? I'm still figuring that out, but either way, it's defenitely a skill to develop and practice for job interviews.
 
-
-
+<br>
 
 ## Return Statement
 
 Looking back at this module, I learned more than just TypeScript syntax. I learned how to think faster, debug smarter, and appreciate a language that actually prevents problems instead of just documenting them. Error 404: Runtime bugs not found? Yeah, I'm okay with that. TypeScript has earned its spot in my toolkit, and I'm curious to see where it takes me next.
-
-
