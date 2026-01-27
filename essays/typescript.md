@@ -11,7 +11,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/typescript-meme.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/typescript-meme.png">
 
 
 ## Introduction
