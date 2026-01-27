@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Reflecting on Typescript"
+title: "Error 404: Runtime Bugs Not Found (Thanks, TypeScript)"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-26
 published: true
@@ -11,43 +11,47 @@ labels:
   - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+## Introduction
 
-*Thoughts on Typescript
- Comparing Typescript to other programming lanugages
- What have I learned so far
- Opinion of Typescript: good or bad*
+Coming from Java, C, C++, and a bit of Python, I wasn't sure what to expect from TypeScript. Another language to learn? Great. But here's the thing: I actually really like it. TypeScript catches bugs before they become problems, and after dealing with runtime errors in other languages, that's a game-changer.
 
-In my opinion I think Typescript is very user-friendly and definitely a programming language I'd recommend for someone who wants to start learning how to code. The logic of coding still remains the same like with all programming languages or object oriented languages. In my opinion the syntax is similar to Python. 
+What surprised me most was how natural it felt to write. The syntax is clean and readable like Python, but it has the type safety I'm used to from Java and C++. I can write code quickly without constantly worrying about what's going to break when I run it. The compiler does the heavy lifting—it catches type errors while I'm still writing, not after I've deployed something and it crashes. That alone makes it worth using.
 
-## In the context of programming
+After this module, I get why TypeScript has become so popular. It takes what's good about JavaScript and fixes what's frustrating about it. Let me break down why it works and what the learning experience was actually like.
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+## First Impression
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+When I first looked at TypeScript code, it reminded me most of Python. The syntax is straightforward—no unnecessary brackets or verbose declarations like Java requires. You can write a function in a few clean lines and actually read it without squinting. But unlike Python, where you don't know if something's broken until you run it, TypeScript tells you immediately if you're doing something wrong.
 
-## In the context of engineering
+The type system felt familiar coming from Java and C++. I'm used to declaring types: int x = 5; in C, String name = "test"; in Java. TypeScript does the same thing: let x: number = 5; let name: string = "test"; But here's where it gets better—TypeScript has type inference. If you write let x = 5;, it knows x is a number. You don't have to spell everything out like you do in Java. It's smarter about it.
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
+The weirdest part? Understanding that TypeScript isn't really a standalone language. It compiles—or "transpiles"—to JavaScript. In C++, you compile to machine code. In Java, you compile to bytecode. TypeScript becomes plain JavaScript that runs in browsers. At first, that felt like an extra, unnecessary step. Why not just write JavaScript? But once I realized this lets you use modern features while keeping your code compatible with older systems, it clicked. From a software engineering perspective, that's actually clever.
+One thing I appreciate: the tooling. My IDE autocompletes everything, catches errors as I type, and suggests fixes. Coming from C++ where a missing semicolon means hunting through compiler errors, having real-time feedback is incredibly helpful. It makes writing code faster and way less frustrating.
 
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
 
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
+## The Good Stuff: What I Actually Like
 
-## In the context of relationships
+From a software engineering perspective, TypeScript solves a real problem. JavaScript's flexibility means you can assign a string to a variable that's supposed to be a number, pass wrong arguments to a function, or misspell property names and nothing stops you until the code crashes. TypeScript catches these mistakes before you even run the code.
 
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
+The type checking is the biggest win. If I try to pass a string to a function expecting a number, TypeScript won't compile. Misspell a property? It tells me immediately. This prevents bugs from reaching production and makes code easier to understand. When someone reads my code, the types show exactly what each function expects and returns.
 
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
+I also learned modern JavaScript features through TypeScript. Arrow functions, destructuring, and template literals were new to me and make code cleaner and faster to write. Interfaces let you define object shapes without Java's class overhead, giving you structure without the verbosity.
 
-Relationships have always been difficult, and by nature will continue to be so.
+Is TypeScript perfect? No. There's a learning curve with generics and knowing when to use strict typing. But compared to hunting runtime errors in JavaScript or dealing with Java's verbosity, TypeScript strikes a good balance. 
 
-## Okay!
 
-So back to the original premise; why is being one of the club officers so difficult?
+## Coding with a Time Bomb, but One Day I'll Reach a Flow State
 
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
+The time pressure changes everything. Normally, I can take my time debugging, look things up, think through logic carefully. With WODs, you don't have that luxury. You need to comprehend the problem fast, plan your approach, write clean code, and make sure it actually runs—all while the clock counts down. One small mistake, one syntax error, and you're scrambling to fix it before time runs out.
 
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+Is it useful? Honestly, I think so, even if it's uncomfortable. The pressure forces you to really know the material instead of relying on trial and error or constantly Googling syntax. You can't fake your way through a WOD. Either you understand TypeScript well enough to write working code under pressure, or you don't. It's pushing me to internalize concepts faster than I would otherwise.
+
+Do I enjoy it? Not exactly. But I can see how it's building skills that matter, like speed, accuracy, and the ability to think clearly under stress. In real development, there are deadlines, production bugs that need fixing now, and situations where you can't spend an hour debugging. WODs simulate that pressure in a controlled way. Will this style work for me? I'm still figuring that out, but either way, it's defenitely a skill to develop and practice for job interviews.
+
+
+## Return Statement
+
+Looking back at this module, I learned more than just TypeScript syntax. I learned how to think faster, debug smarter, and appreciate a language that actually prevents problems instead of just documenting them. Error 404: Runtime bugs not found? Yeah, I'm okay with that. TypeScript has earned its spot in my toolkit, and I'm curious to see where it takes me next.
+
+
