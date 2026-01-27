@@ -18,7 +18,7 @@ labels:
  What have I learned so far
  Opinion of Typescript: good or bad*
 
-Type your essay:
+In my opinion I think Typescript is very user-friendly and definitely a programming language I'd recommend for someone who wants to start learning how to code. The logic of coding still remains the same like with all programming languages or object oriented languages. In my opinion the syntax is similar to Python. 
 
 ## In the context of programming
 
