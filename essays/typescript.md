@@ -47,7 +47,7 @@ Is TypeScript perfect? No. There's a learning curve with generics and knowing wh
 
 ### Coding with a Time Bomb, but One Day I'll Reach Flow State
 
-The time pressure changes everything. Normally, I can take my time debugging, look things up, think through logic carefully. With WODs, you don't have that luxury. You need to comprehend the problem fast, plan your approach, write clean code, and make sure it actually runs—all while the clock counts down. One small mistake, one syntax error, and you're scrambling to fix it before time runs out.
+The time pressure changes everything. Normally, I can take my time debugging, look things up, think through logic carefully. With WODs, you don't have that luxury. You need to comprehend the problem fast, plan your approach, write clean code, and make sure it actually runs, all while the clock counts down. One small mistake, one syntax error, and you're scrambling to fix it before time runs out.
 
 Is it useful? Honestly, I think so, even if it's uncomfortable. The pressure forces you to really know the material instead of relying on trial and error or constantly Googling syntax. You can't fake your way through a WOD. Either you understand TypeScript well enough to write working code under pressure, or you don't. It's pushing me to internalize concepts faster than I would otherwise.
 
