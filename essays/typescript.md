@@ -11,7 +11,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="450px" class="rounded float-start pe-4" src="../img/typescript-meme.png">
+<img width="410px" class="rounded float-start pe-4" src="../img/typescript-meme.png">
 
 
 ## Introduction
@@ -46,7 +46,7 @@ Is TypeScript perfect? No. There's a learning curve with generics and knowing wh
 
 <br>
 
-## Coding with a Time Bomb, but One Day I'll Reach a Flow State
+## Coding with a Time Bomb, but One Day I'll Reach Flow State
 
 The time pressure changes everything. Normally, I can take my time debugging, look things up, think through logic carefully. With WODs, you don't have that luxury. You need to comprehend the problem fast, plan your approach, write clean code, and make sure it actually runs—all while the clock counts down. One small mistake, one syntax error, and you're scrambling to fix it before time runs out.
 
