@@ -16,9 +16,9 @@ labels:
 
 ### Introduction
 
-Coming from Java, C, C++, and a bit of Python, I wasn't sure what to expect from TypeScript. Another language to learn? Great. But here's the thing: I actually really like it. TypeScript catches bugs before they become problems, and after dealing with runtime errors in other languages, that's a game-changer.
+Coming from Java, C, C++, and a bit of Python, I wasn't sure what to expect from TypeScript. Another language to learn? Great. But here's the thing: I actually really like it. TypeScript catches bugs before they become problems, and after dealing with runtime errors in other languages, that's a game changer.
 
-What surprised me most was how natural it felt to write. The syntax is clean and readable like Python, but it has the type safety I'm used to from Java and C++. I can write code quickly without constantly worrying about what's going to break when I run it. The compiler does the heavy lifting—it catches type errors while I'm still writing, not after I've deployed something and it crashes. That alone makes it worth using.
+What surprised me most was how natural it felt to write. The syntax is clean and readable like Python, but it has the type safety I'm used to from Java and C++. I can write code quickly without constantly worrying about what's going to break when I run it. The compiler does the heavy lifting, where it catches type errors while I'm still writing, not after I've deployed something and it crashes. That alone makes it worth using.
 
 After this module, I get why TypeScript has become so popular. It takes what's good about JavaScript and fixes what's frustrating about it. Let me break down why it works and what the learning experience was actually like.
 
