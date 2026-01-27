@@ -14,7 +14,7 @@ labels:
 <img width="410px" class="rounded float-start pe-4" src="../img/typescript-meme.png">
 
 
-## Introduction
+### Introduction
 
 Coming from Java, C, C++, and a bit of Python, I wasn't sure what to expect from TypeScript. Another language to learn? Great. But here's the thing: I actually really like it. TypeScript catches bugs before they become problems, and after dealing with runtime errors in other languages, that's a game-changer.
 
@@ -24,7 +24,7 @@ After this module, I get why TypeScript has become so popular. It takes what's g
 
 <br>
 
-## First Impression
+### First Impression
 
 When I first looked at TypeScript code, it reminded me most of Python. The syntax is straightforward—no unnecessary brackets or verbose declarations like Java requires. You can write a function in a few clean lines and actually read it without squinting. But unlike Python, where you don't know if something's broken until you run it, TypeScript tells you immediately if you're doing something wrong.
 
@@ -35,7 +35,7 @@ One thing I appreciate: the tooling. My IDE autocompletes everything, catches er
 
 <br>
 
-## The Good Stuff: What I Actually Like
+### The Good Stuff: What I Actually Like
 
 From a software engineering perspective, TypeScript solves a real problem. JavaScript's flexibility means you can assign a string to a variable that's supposed to be a number, pass wrong arguments to a function, or misspell property names and nothing stops you until the code crashes. TypeScript catches these mistakes before you even run the code.
 
@@ -45,7 +45,7 @@ Is TypeScript perfect? No. There's a learning curve with generics and knowing wh
 
 <br>
 
-## Coding with a Time Bomb, but One Day I'll Reach Flow State
+### Coding with a Time Bomb, but One Day I'll Reach Flow State
 
 The time pressure changes everything. Normally, I can take my time debugging, look things up, think through logic carefully. With WODs, you don't have that luxury. You need to comprehend the problem fast, plan your approach, write clean code, and make sure it actually runs—all while the clock counts down. One small mistake, one syntax error, and you're scrambling to fix it before time runs out.
 
@@ -55,6 +55,6 @@ Do I enjoy it? Not exactly. But I can see how it's building skills that matter, 
 
 <br>
 
-## Return Statement
+### Return Statement
 
 Looking back at this module, I learned more than just TypeScript syntax. I learned how to think faster, debug smarter, and appreciate a language that actually prevents problems instead of just documenting them. Error 404: Runtime bugs not found? Yeah, I'm okay with that. TypeScript has earned its spot in my toolkit, and I'm curious to see where it takes me next.
