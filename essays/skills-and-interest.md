@@ -1,18 +1,23 @@
 ---
 layout: essay
 type: essay
-title: "My Path to Computer Science"
+title: "Do What Excites"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-22
 published: false
 labels:
   - Software Engineering
+  - Computer Science
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
 *Difficulty: a thing that is hard to accomplish, deal with, or understand.*
 
+I would've never imagine myself to be where I am today. I was never really sure of what I wanted to be growing up. I knew what I enjoyed, I knew my strength and weaknesses, and just like everyone in this world, I had desires of being successful and longed to be content with my life. 
+I must admit. I am not your typical "computer science major" where I love video games, computers, and puzzles. In my free time, I urge to be away from any technology. I enjoy being out, meeting people, having a community, and being far away from any device and technology.
+Now you may be wondering, why the heck am I pursuing computer science? 
+"Money or Passion?" Let's be realistic. In this day and age, in survival, 
 One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
 
 Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
