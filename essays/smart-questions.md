@@ -20,6 +20,7 @@ Before reading Eric Raymond's essay "How To Ask Questions The Smart Way," I thou
 Some questions receive dozens of detailed answers within hours. Others get closed within minutes. The difference usually isn't about problem difficulty. It's about how well the question is asked and how much effort the person showed.
 <br>
 <br>
+<br>
 
 ## What Makes a Question "Smart"?
 
