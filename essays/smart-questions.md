@@ -18,6 +18,8 @@ labels:
 Before reading Eric Raymond's essay "How To Ask Questions The Smart Way," I thought asking technical questions was simple: post your problem online and wait for an answer. After exploring Stack Overflow, I learned that how you ask matters just as much as what you're asking. The way you present your problem directly affects whether you get helpful answers or get ignored.
 Some questions receive dozens of detailed answers within hours. Others get closed within minutes. The difference usually isn't about problem difficulty—it's about how well the question is asked and how much effort the person showed.
 
+<br\>
+
 ## What Makes a Question "Smart"?
 
 Raymond's essay teaches that smart questions show respect for other people's time. Before posting, you should:
@@ -29,6 +31,7 @@ Raymond's essay teaches that smart questions show respect for other people's tim
 - **Be professional.** Remember that people are volunteering their time to help you.
 
 These practices aren't just about being polite. They make it possible for people to actually help you. Without enough information, even experts can't solve your problem. Just like AI.
+<br\>
 
 ## A Smart Question Example
 
@@ -50,6 +53,7 @@ The question received 26+ answers with the top answer earning over 27,000 upvote
 Other answers covered assembly code analysis, compiler optimization flags, alternative implementation approaches, benchmarking methodology, and branch prediction history across CPU architectures. The responses ranged from beginner-friendly analogies to deep technical analysis with graphs and charts.
 
 This thread has been viewed millions of times and serves as a major learning resource for developers studying performance optimization. One smart question created lasting value for thousands of people.
+<br\>
 
 ## A Not-So-Smart Question Example
 
@@ -85,6 +89,7 @@ This question makes it impossible for anyone to help, despite good intentions.
 This question would get downvoted and closed quickly—not because the community is mean, but because there's not enough information to help. People would comment asking for a minimal reproducible example, error messages, and what was already tried. Even someone wanting to help couldn't because there's nothing to work with.
 
 The person asking doesn't get an answer, potential helpers move on to answerable questions, and nobody benefits.
+<br\>
 
 ## What I Learned
 
