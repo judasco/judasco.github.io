@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "How to Not Get Roasted on Stack Overflow"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-29
 published: true
@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions-meme.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/smart-questions-meme.png">
 
 ## Introduction: Reciprocation
 
