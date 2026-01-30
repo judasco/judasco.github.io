@@ -13,7 +13,7 @@ labels:
 <img width="400px" class="rounded float-start pe-4" src="../img/my-story.png">
 
 *"Your obligation is that of active participation. You should not act as knowledge-absorbing sponges, but as whetstones on which we can all sharpen our wits." — Edsger W. Dijkstra* 
-
+<br>
 # Why Computer Science? 
 I would've never imagined myself to be on the path I am today. I was never really sure of what I wanted to be growing up. I knew what I enjoyed, I knew my strengths and weaknesses, and just like everyone in this world, I had desires of being successful and longed to be content with my life. For a while, I explored different paths, trying to figure out where I fit.
 
