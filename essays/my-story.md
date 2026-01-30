@@ -10,7 +10,7 @@ labels:
   - Computer Science
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/my-story.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/my-story.png">
 
 *"Your obligation is that of active participation. You should not act as knowledge-absorbing sponges, but as whetstones on which we can all sharpen our wits." — Edsger W. Dijkstra* 
 
