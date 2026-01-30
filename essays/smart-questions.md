@@ -21,6 +21,7 @@ Some questions receive dozens of detailed answers within hours. Others get close
 <br>
 <br>
 <br>
+<br>
 
 ## What Makes a Question "Smart"?
 
