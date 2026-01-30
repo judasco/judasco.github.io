@@ -13,7 +13,7 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions-meme.png">
 
-## Introduction: Reciprocation
+### Introduction: Reciprocation
 
 Before reading Eric Raymond's essay "How To Ask Questions The Smart Way," I thought asking technical questions was simple: post your problem online and wait for an answer. After reading Stack Overflow, I learned that how you ask matters just as much as what you're asking. The way you present your problem directly affects whether you get helpful answers or get ignored.
 
@@ -23,7 +23,7 @@ Did the person do their own research first? Did they include enough information 
 <br>
 <br>
 
-## What Makes a Question "Smart"?
+### What Makes a Question "Smart"?
 
 Raymond's essay teaches that smart questions show respect for other people's time. Before posting, you should:
 
@@ -38,7 +38,7 @@ These practices aren't just about being polite. They make it possible for people
 <br>
 
 
-## A Smart Question Example
+### A Smart Question Example
 
 **Question:** "Why is processing a sorted array faster than an unsorted array?"  
 **Link:** https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array
@@ -62,7 +62,7 @@ This thread has been viewed millions of times and serves as a major learning res
 <br>
 
 
-## A Not-So-Smart Question Example
+### A Not-So-Smart Question Example
 
 **Question:** "Need help with login system URGENT!!!"
 
@@ -100,7 +100,7 @@ The person asking doesn't get an answer, potential helpers move on to answerable
 <br>
 
 
-## What I Learned
+### What I Learned
 
 Examining these contrasting questions taught me that asking good technical questions is a real skill. The sorted array question succeeded because it showed thorough preparation, provided complete information, and demonstrated genuine curiosity. The login question would fail because it provides no actionable information.
 
