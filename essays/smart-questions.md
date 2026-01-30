@@ -13,87 +13,90 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+## Introduction: Reciprocation
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+Before reading Eric Raymond's essay "How To Ask Questions The Smart Way," I thought asking technical questions was simple: post your problem online and wait for an answer. After exploring Stack Overflow, I learned that how you ask matters just as much as what you're asking. The way you present your problem directly affects whether you get helpful answers or get ignored.
+Some questions receive dozens of detailed answers within hours. Others get closed within minutes. The difference usually isn't about problem difficulty—it's about how well the question is asked and how much effort the person showed.
 
-## What’s a smart question?
+## What Makes a Question "Smart"?
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+Raymond's essay teaches that smart questions show respect for other people's time. Before posting, you should:
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+- **Do your research.** Search for your error, read documentation, check if someone already asked your question.
+- **Show what you tried.** Include actual code, explain your thinking, describe what happened.
+- **Give enough details.** Include complete code, full error messages, language/framework versions, expected versus actual results.
+- **Be specific.** Ask about one particular problem, not broad topics like "how do I build X."
+- **Be professional.** Remember that people are volunteering their time to help you.
 
-```
-Q: python date of the previous month
+These practices aren't just about being polite. They make it possible for people to actually help you. Without enough information, even experts can't solve your problem. Just like AI.
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+## A Smart Question Example
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+**Question:** "Why is processing a sorted array faster than an unsorted array?"  
+**Link:** https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+This question asks about a confusing performance issue. The person wrote C++ code that sums numbers ≥128 in an array. When they sorted the array first, the code ran almost six times faster (1.93 seconds vs 11.54 seconds). This seems backwards—sorting should add time, not save it.
 
-I have solved this trouble in bash with:
+The question included complete, runnable code showing the exact problem. They provided precise measurements (not "it's slow" but exact timings). They even tested it in Java to verify it wasn't language-specific. The question was driven by genuine curiosity about why this counterintuitive thing was happening.
 
-echo $(date -d"3 month ago" "+%G%m%d")
+**What Makes This Smart:**
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
+This question demonstrates excellent technical communication. Anyone can copy the code and reproduce the problem. The specific measurements show exactly how significant the issue is. The person clearly investigated thoroughly before asking—they isolated the behavior, measured it carefully, and tested across languages. They weren't asking someone to fix their code; they wanted to understand the underlying mechanism.
 
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
+**The Responses:**
 
-Thanks for your help!
-```
+The question received 26+ answers with the top answer earning over 27,000 upvotes. The best answer explained CPU branch prediction using a railroad junction analogy—modern CPUs predict which way an if-statement will go, and sorted data makes these predictions consistently correct while unsorted data causes constant mispredictions.
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+Other answers covered assembly code analysis, compiler optimization flags, alternative implementation approaches, benchmarking methodology, and branch prediction history across CPU architectures. The responses ranged from beginner-friendly analogies to deep technical analysis with graphs and charts.
 
-```
-A: datetime and the datetime.timedelta classes are your friend.
+This thread has been viewed millions of times and serves as a major learning resource for developers studying performance optimization. One smart question created lasting value for thousands of people.
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+## A Not-So-Smart Question Example
 
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+**Question:** "Need help with login system URGENT!!!"
 
 ```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+I'm trying to make a login system for my website but it's not working. Here's my code:
 
-## The foolproof way to get ignored.
+function login() {
+    // code here
+}
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
+Please help ASAP! This is due tomorrow!!!
 ```
-Q: Facebook Desktop Notifier
+**Why This Doesn't Work:**
 
-I am a beginner programmer that have never used anything other than what's included in a language.
+This question makes it impossible for anyone to help, despite good intentions.
 
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
+**No actual code.** Just an empty function—nobody can diagnose what's wrong without seeing what was attempted.
 
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
+**Vague problem.** "It's not working" could mean error messages, crashes, wrong behavior, or dozens of other issues. Each needs a different solution.
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+**Missing context.** No programming language, framework, database info, or error messages. These details completely change what advice would be helpful.
 
-## Conclusion
+**No research shown.** Login systems are extremely well-documented, but there's no mention of trying tutorials or searching for solutions.
 
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+**Demanding tone.** "URGENT" and "due tomorrow" treats the community like a homework service rather than a learning resource.
+
+**Unhelpful title.** Doesn't describe the actual problem or help others find it later.
+
+**What Would Happen:**
+
+This question would get downvoted and closed quickly—not because the community is mean, but because there's not enough information to help. People would comment asking for a minimal reproducible example, error messages, and what was already tried. Even someone wanting to help couldn't because there's nothing to work with.
+
+The person asking doesn't get an answer, potential helpers move on to answerable questions, and nobody benefits.
+
+## What I Learned
+
+Examining these contrasting questions taught me that asking good technical questions is a real skill. The sorted array question succeeded because it showed thorough preparation, provided complete information, and demonstrated genuine curiosity. The login question would fail because it provides no actionable information.
+
+Going forward, I'll:
+
+- **Research thoroughly first.** Spend real time searching and trying solutions before asking.
+- **Create minimal examples.** Show just the code that reproduces the problem.
+- **Be specific.** Describe exactly what I expected versus what happened, with full error messages.
+- **Show my work.** Explain what I already tried and why it didn't work.
+- **Include all relevant details.** Language, framework, OS, versions, complete errors—everything upfront.
+- **Be patient and respectful.** Thank volunteers and never demand immediate answers.
+
+I won't always write perfect questions, especially under pressure. But understanding these principles gives me a framework to improve. Smart questions lead to smart answers that help not just me but potentially thousands of developers. Learning to ask well is as important as learning to code.
