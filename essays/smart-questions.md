@@ -18,8 +18,8 @@ labels:
 Before reading Eric Raymond's essay "How To Ask Questions The Smart Way," I thought asking technical questions was simple: post your problem online and wait for an answer. After reading Stack Overflow, I learned that how you ask matters just as much as what you're asking. The way you present your problem directly affects whether you get helpful answers or get ignored.
 
 Some questions receive dozens of detailed answers within hours. Others get closed within minutes. The difference usually isn't about problem difficulty. It's about how well the question is asked and how much effort the person showed.
-<br>
-<br>
+
+Did the person do their own research first? Did they include enough information for someone to actually help? Did they show what they already tried? These details determine whether a question succeeds or fails, regardless of the technical difficulty of the problem itself.
 <br>
 <br>
 
@@ -36,6 +36,7 @@ Raymond's essay teaches that smart questions show respect for other people's tim
 These practices aren't just about being polite. They make it possible for people to actually help you. Without enough information, even experts can't solve your problem. Just like AI.
 <br>
 <br>
+
 
 ## A Smart Question Example
 
@@ -59,6 +60,7 @@ Other answers covered assembly code analysis, compiler optimization flags, alter
 This thread has been viewed millions of times and serves as a major learning resource for developers studying performance optimization. One smart question created lasting value for thousands of people.
 <br>
 <br>
+
 
 ## A Not-So-Smart Question Example
 
@@ -96,6 +98,7 @@ This question would get downvoted and closed quickly, not because the community 
 The person asking doesn't get an answer, potential helpers move on to answerable questions, and nobody benefits.
 <br>
 <br>
+
 
 ## What I Learned
 
