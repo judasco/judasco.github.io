@@ -104,7 +104,7 @@ The person asking doesn't get an answer, potential helpers move on to answerable
 
 Examining these contrasting questions taught me that asking good technical questions is a real skill. The sorted array question succeeded because it showed thorough preparation, provided complete information, and demonstrated genuine curiosity. The login question would fail because it provides no actionable information.
 
-Going forward, I'll:
+Going forward, I will:
 
 - **Research thoroughly first.** Spend real time searching and trying solutions before asking.
 - **Create minimal examples.** Show just the code that reproduces the problem.
