@@ -10,7 +10,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="../img/gang-of-four.jpeg">
+<img width="420px" class="rounded float-start pe-4" src="../img/gang-of-four.jpeg">
 
 <br>
 ### Gang of Four
