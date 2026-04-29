@@ -12,7 +12,6 @@ labels:
 
 <img width="420px" class="rounded float-start pe-4" src="../img/gang-of-four.jpeg">
 
-<br>
 ### Gang of Four
 Design patterns are reusable, battle-tested solutions to problems that show up again and again in software development. Rather than reinventing the wheel each time a familiar problem appears, developers can reach for a pattern that is a proven structural approach that encodes decisions about how components relate, communicate, and manage their lifecycle. The concept was formalized by the "Gang of Four" in their 1994 book Design Patterns: Elements of Reusable Object-Oriented Software, which catalogued 23 patterns across creational, structural, and behavioral categories. Beyond saving time, patterns give teams a shared vocabulary: when someone says "we used a Singleton here," every experienced developer on the team immediately understands the intent and trade-offs without needing a line-by-line walkthrough.
 
