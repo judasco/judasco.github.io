@@ -19,15 +19,20 @@ In this course, I used AI mainly as a support tool for understanding React, Java
 
 ### Personal Experience with AI
 **Experience WODs**
+<br>
 For WODs, I sometimes used AI to understand errors instead of writing full solutions. A typical prompt was: “Why is my function not returning the expected output in JavaScript?”
 AI helped me identify possible issues quickly, but I still had to implement and test the solution myself. The time pressure of WODs made it important not to rely too heavily on AI, since real learning came from struggling through the problem.
+
 **In-Class Practice WODs**
+<br>
 During practice WODs, I used AI more freely for debugging. It helped explain errors and suggest fixes, especially when working with unfamiliar syntax. However, I noticed that depending on it too early sometimes slowed my ability to recognize patterns on my own.
-
+<br>
 **In-Class WODs**
+<br>
 For graded WODs, I wanted to test my own understanding first. After completing my attempt, I sometimes used AI to compare solutions or verify if my logic made sense.
-
+<br>
 **Essays**
+<br>
 For essays like this one, I used AI to help organize ideas and improve structure. However, I always rewrote everything in my own voice because AI-generated writing alone felt too generic.
 
 **Final Project**
