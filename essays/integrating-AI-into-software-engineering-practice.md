@@ -44,7 +44,9 @@ Going into this, I never really had experience with React until this class, so t
 
 AI did not replace the work but rather supported it. For someone experienced in React, these problems might take 10–15 minutes, but for me, they took much longer because I was still learning the fundamentals. That gap showed me that AI cannot replace real understanding.
 Overall, AI was helpful as a starting point and debugging assistant, but the most important learning came from breaking things, fixing them, and trying again. It reinforced the idea that AI is just a tool, and real growth comes from actively working through problems.
+
 **Learning a Concept / Tutorial**
+<br>
 This was one of the most useful uses of AI. I often asked complex topics to make it easier to understand quickly, especially when documentation felt too dense.
 
 **Answering Questions in Class or Discord**
