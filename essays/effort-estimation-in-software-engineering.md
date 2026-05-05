@@ -11,14 +11,12 @@ labels:
   - Learning
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="../img/effort-estimation.jpg">
+<img width="430px" class="rounded float-start pe-4" src="../img/effort-estimation.jpg">
 
 ### Estimating Felt Like Guessing
 At the beginning of this project, estimating effort felt like guessing. I didn’t have a strong sense of how long tasks would actually take, especially for features I had never implemented before. To make my effort estimates, I mainly based them on the type of task and my past experience working on similar features. For example, tasks like creating pages (such as the Home Page, Admin Page, and Listing Page) were estimated based on how long previous page implementations took. Simpler UI tasks were usually estimated lower, around 60–120 minutes, while more complex features like creating the login/signup system or database-related tasks were estimated higher, around 180–240 minutes.
 
-I also broke down tasks mentally into smaller steps such as setting up the structure, implementing functionality, and testing. For example, when estimating the “Creating the User Login and Signup page” issue, I considered both frontend work and backend integration, which led me to give it a higher estimate. Additionally, for database-related tasks like creating schemas and linking profile data, I accounted for the extra complexity of making sure everything connected correctly.
-
-My estimates were based on a combination of prior experience, perceived complexity, and how many components were involved in completing the task.
+I also broke down tasks mentally into smaller steps such as setting up the structure, implementing functionality, and testing. For example, when estimating the “Creating the User Login and Signup page” issue, I considered both frontend work and backend integration, which led me to give it a higher estimate. Additionally, for database-related tasks like creating schemas and linking profile data, I accounted for the extra complexity of making sure everything connected correctly. My estimates were based on a combination of prior experience, perceived complexity, and how many components were involved in completing the task.
 
 ### Why Estimating Still Helped
 Even though my estimates were not always accurate, estimating in advance was still helpful. It forced me to think more carefully about what each issue actually required before starting. For example, when estimating tasks like “Create Add Space Page” or “Create Listing Page,” I initially focused on just building the UI, but estimating made me realize I also needed to consider data handling, testing, and edge cases.
