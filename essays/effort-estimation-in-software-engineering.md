@@ -36,11 +36,7 @@ To track my effort, I recorded the time (Google Timer/Stopwatch) I spent working
 While I tried to be accurate, my tracking was not perfect. There were times when I forgot to record time immediately or included small breaks without realizing it. However, I consistently updated my effort after working sessions, so I believe my data is a fair representation of my work. This process made me more aware of how I actually spend my time.
 
 ### What I Would Do Differently
-If I were to do this again, I would improve my estimation process by using actual past data more directly instead of relying mostly on intuition. For example, I would look at how long similar issues actually took (such as page creation or database integration) and use those numbers to guide future estimates.
-
-I would also improve my tracking by being more consistent with timing both coding and non-coding work in real time. Instead of estimating after the fact, I would use a timer more consistently to capture smaller chunks of work more accurately.
-
-Additionally, I would break down larger issues into smaller, more specific tasks. This would make both estimation and tracking easier and more precise, especially for complex features like authentication and database integration.
+If I were to do this again, I would improve my estimation process by using actual past data more directly instead of relying mostly on intuition. For example, I would look at how long similar issues actually took (such as page creation or database integration) and use those numbers to guide future estimates. I would also improve my tracking by being more consistent with timing both coding and non-coding work in real time. Instead of estimating after the fact, I would use a timer more consistently to capture smaller chunks of work more accurately. Additionally, I would break down larger issues into smaller, more specific tasks. This would make both estimation and tracking easier and more precise, especially for complex features like authentication and database integration.
 
 ### AI Use
 I used AI tools such as ChatGPT, Claude, and Copilot to assist with understanding concepts, debugging issues, and helping generate code for certain features. For example, I used AI when linking profile data to the signup process, as well as for general React and backend-related questions.
@@ -54,5 +50,4 @@ Generation time: usually less than 1 minute
 Verification and debugging: around 20–60 minutes depending on the task
 
 Most AI generated outputs were not used directly without changes. I often had to modify the code to fit my project structure and debug issues that came up during integration. In many cases, the time spent verifying and fixing the AI output was longer than the time spent generating it.
-
-I'd say AI was helpful for speeding up understanding and providing a starting point, but it still required significant effort to ensure the final implementation worked correctly.
+So I'd say AI was helpful for speeding up understanding and providing a starting point, but it still required significant effort to ensure the final implementation worked correctly.
