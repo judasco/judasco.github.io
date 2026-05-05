@@ -3,16 +3,14 @@ layout: essay
 type: essay
 title: "Integrating AI into Software Engineering Practice"
 # All dates must be YYYY-MM-DD format!
-date: 2026-02-12
+date: 2026-05-04
 published: false
 labels:
-  - Typescript
-  - HTML
-  - ESLint
-  - Programming
+  - Artificial Intelligence
+  - Software Engineering
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/eslint.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/software-engineering-and-AI.jpeg">
 
 
 ### Why Coding Standards Matter
