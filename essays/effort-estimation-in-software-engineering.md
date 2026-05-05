@@ -11,7 +11,7 @@ labels:
   - Learning
 ---
 
-<img width="480px" class="rounded float-start pe-4" src="../img/effort-estimation.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/effort-estimation.jpg">
 
 ### Estimating Felt Like Guessing
 At the beginning of this project, estimating effort felt like guessing. I didn’t have a strong sense of how long tasks would actually take, especially for features I had never implemented before. To make my effort estimates, I mainly based them on the type of task and my past experience working on similar features. For example, tasks like creating pages (such as the Home Page, Admin Page, and Listing Page) were estimated based on how long previous page implementations took. Simpler UI tasks were usually estimated lower, around 60–120 minutes, while more complex features like creating the login/signup system or database-related tasks were estimated higher, around 180–240 minutes.
