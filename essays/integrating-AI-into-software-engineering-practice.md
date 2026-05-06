@@ -65,6 +65,10 @@ I used AI for examples and modified them to fit my assignment. This helped me le
 <br>
 I used AI to break down code like, “Explain this function step by step.” This was helpful for understanding unfamiliar or complex logic, especially with callbacks and nested functions.
 
+**Writing Code**
+<br>
+I sometimes used AI to generate starting points. However, I rarely used the output directly. I rather treat it as a reference and modify it.
+
 **Documenting Code**
 <br>
 AI was useful for generating comments and documentation. It helped speed up repetitive tasks like explaining functions, but I always made sure to check.
@@ -72,6 +76,9 @@ AI was useful for generating comments and documentation. It helped speed up repe
 **Quality Assurance**
 <br>
 I used AI to debug ESLint errors. It helped me understand scoping and import issues, but I still had to fix and test the code myself.
+
+**Other Uses**
+I use AI as a study tool for reviewing concepts before exams and quizzes. I also use it to help format, brainstorm, and organize ideas for projects.
 
 **III. Impact on Learning and Understanding**
 <br>
