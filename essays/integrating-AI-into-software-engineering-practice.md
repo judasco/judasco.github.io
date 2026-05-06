@@ -78,6 +78,7 @@ AI was useful for generating comments and documentation. It helped speed up repe
 I used AI to debug ESLint errors. It helped me understand scoping and import issues, but I still had to fix and test the code myself.
 
 **Other Uses**
+<br>
 I use AI as a study tool for reviewing concepts before exams and quizzes. I also use it to help format, brainstorm, and organize ideas for projects.
 
 **III. Impact on Learning and Understanding**
