@@ -26,7 +26,7 @@ Manoa Study Spaces is a full-stack web application built to help students at the
 
 The problem we set out to solve is a familiar one on large campuses: newer students often don't know where to go when they need a quiet corner to study, a group meeting room, or a spot with reliable power outlets. Existing resources were scattered or outdated, so we built a centralized, community-driven solution. Users can submit new study spaces, rate and review existing ones, and bookmark favorites for quick access. Admins can moderate submissions, update space details, and monitor usage patterns to keep the data accurate.
 
-The application has two primary user roles. **Admins** manage the overall content quality, they can approve or remove submitted spaces, edit amenity details, and manage user accounts. **Students** are the core users: they search and filter spaces, submit new locations, join study groups, and leave feedback through ratings and comments. Some spaces also display occupancy indicators to help students gauge how busy a location is before heading over.
+The application has two primary user roles. Admins manage the overall content quality, they can approve or remove submitted spaces, edit amenity details, and manage user accounts. Students are the core users: they search and filter spaces, submit new locations, join study groups, and leave feedback through ratings and comments. Some spaces also display occupancy indicators to help students gauge how busy a location is before heading over.
 
 ### My Contributions
 
