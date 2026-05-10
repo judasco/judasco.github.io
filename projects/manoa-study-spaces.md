@@ -16,6 +16,8 @@ labels:
 summary: "Manoa Study Spaces is a collaborative web application that helps UH Manoa students discover, save, and share campus study spaces and study groups."
 ---
 
+### The Problem
+
 Finding a good place to study at UH Manoa is harder than it should be. Students often rely on word of mouth or just wander around hoping to find somewhere available. Newer students especially struggle since they may not even know where to look. My team built Manoa Study Spaces to give students a centralized place to discover, share, and save campus study spots while also coordinating study groups with their peers.
 
 ### Project Overview
