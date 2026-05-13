@@ -42,7 +42,7 @@ Another major lesson I learned from this class was Agile Project Management. Bef
 
 Using GitHub Projects, issues, milestones, and backlogs taught me how professional teams organize development. At first, these tools seemed small or not as important as coding itself. But over time, I realized they are foundational skills for real-world software engineering. Without proper organization and communication, even talented developers can struggle to complete projects efficiently.
 
-I learned how to divide work among team members, assign responsibilities, and track progress through GitHub issues. I also learned the importance of communication when working collaboratively. Sometimes coding itself was not the hardest part of the project — coordinating tasks and making sure everyone stayed on the same page was equally important.
+I learned how to divide work among team members, assign responsibilities, and track progress through GitHub issues. I also learned the importance of communication when working collaboratively. Sometimes coding itself was not the hardest part of the project, and coordinating tasks and making sure everyone stayed on the same page was equally important.
 
 One thing I appreciated about Agile development was how flexible it was. Instead of trying to complete the entire project perfectly in one attempt, we continuously improved the application step by step. This made large projects feel much more manageable. I now understand why Agile Project Management is widely used in the software industry because it helps teams adapt to problems and changes throughout development.
 
