@@ -7,12 +7,14 @@ date: 2026-05-12
 published: true
 labels:
   - Software Engineering
-  - React
   - Agile Project Management
+  - React
   - Next.js
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/HomePage.png">
+<div class="text-center p-4">
+  <img width="400px" src="../img/HomePage.png" class="img-thumbnail" >
+</div>
 
 
 ### Introduction
