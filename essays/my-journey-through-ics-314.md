@@ -13,7 +13,7 @@ labels:
 ---
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/HomePage.png" class="img-thumbnail" >
+  <img width="700px" src="../img/HomePage.png" class="img-thumbnail" >
 </div>
 
 ### Introduction
