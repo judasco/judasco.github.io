@@ -12,7 +12,7 @@ labels:
   - Next.js
 ---
 
-<img width="410px" class="rounded float-start pe-4" src="../img/HomePage.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/HomePage.png">
 
 
 ### Introduction
@@ -48,7 +48,7 @@ One thing I appreciated about Agile development was how flexible it was. Instead
 Even outside of software engineering, I think the collaboration and planning skills I learned in this class will still be useful. Knowing how to communicate clearly, organize work, and contribute effectively within a team are important skills in almost any career.
 <br>
 
-### Learning What Real Software Engineering Feels Like
+### Software Engineering
 
 Another important thing this class taught me was what professional software engineering actually feels like. In earlier programming classes, assignments were usually short and completed individually. In ICS 314, projects became larger, more connected, and more realistic. There were many moving parts that had to work together: frontend design, backend logic, databases, deployment, testing, and collaboration.
 
@@ -63,4 +63,4 @@ Looking back, ICS 314 was one of the most important classes I have taken so far 
 
 The lessons I learned about User Interface Frameworks completely changed my perspective on modern web development, while Agile Project Management taught me how software teams collaborate and organize projects effectively. More importantly, this class showed me that software engineering is not only about technical coding skills. It is also about communication, teamwork, planning, design, and adaptability.
 
-The skills I learned in this course will definitely continue to help me in the future, whether I am working on personal projects, internships, or professional software development jobs after graduation. ICS 314 did not just teach me how to build websites — it introduced me to the broader world of software engineering.
+The skills I learned in this course will definitely continue to help me in the future, whether I am working on personal projects, internships, or professional software development jobs after graduation. ICS 314 did not just teach me how to build websites, it introduced me to the broader world of software engineering.
